@@ -34,7 +34,7 @@ h2 {
 
 p {
     font-size: 1.1em;
-    color: #666;
+    color: #9b4141;
     line-height: 1.6;
     text-align: center;
     margin: 10px 0;
@@ -59,7 +59,7 @@ section {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #edb7b7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
