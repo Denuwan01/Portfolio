@@ -12,13 +12,7 @@ header {
     text-align: center;
 }
 
-.profile img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
+
 
 
 
@@ -39,14 +33,8 @@ ul {
     text-align: center;
 }
 
-ul li {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
+
+
 
 section {
     padding: 20px;
