@@ -80,21 +80,21 @@ span{
     
 }
 
-.home-content{
+.home-contact{
     max-width: 800px;
 }
-.home-content h3{
+.home-contact h3{
     font-size: 42px;
 }
-.home-content h1{
-    font-size: 62px;
-    line-height: 1.2;
+.home-contact h1{
+    font-size: 38px;
+    line-height: 1;
 
 }
-.home-content p{
-    margin-bottom: 3em;
+.home-contact p{
+    margin: bottom 10px;
     font-size: 18px;
-    margin: 25px 0 30px;
+    margin: 25px 0 30px ;
 }
 .btn-1{
     padding: 15px 28px;
@@ -132,7 +132,7 @@ span{
     
 }
 .img-box img{   
-    border-radius: 30%;
+    border-radius: 50%;
     width: 500px;
 }
 ::-webkit-scrollbar{   
@@ -156,7 +156,7 @@ span{
 }
 .about-img img{
     position: relative;
-    width: 550px;
+    width: 475px;
     box-shadow: 0 0 25px lightblue,
                 0 0 25px lightblue;
     border-radius: 50%;            
@@ -236,7 +236,7 @@ span{
     color: blue;
     border: 2px soild blue;
 }
- .footer ul {
+.footer ul {
             margin-top: 0;
             padding: 0;
             font-size: 18px;
@@ -244,19 +244,19 @@ span{
             margin-bottom: 0;
             text-align: center;
         }
-        .footer ul li a {
+.footer ul li a {
             color: white;
             border-bottom: 3px solid transparent;
             transition: 0.3s ease;
         }
-        .footer ul li a:hover {
+.footer ul li a:hover {
             border-bottom: 3px solid blue;
         }
-        .footer ul li {
+.footer ul li {
             display: inline-block;
             padding: 0 15px;
         }
-        .footer .copyright {
+.footer .copyright {
             margin-top: 15px;
             text-align: center;
             font-size: 12px;
