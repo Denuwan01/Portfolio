@@ -57,9 +57,9 @@ span{
     color: black;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 900;
     transition: 0.3s;
 }
 
@@ -92,7 +92,6 @@ span{
 
 }
 .home-contact p{
-    margin: bottom 10px;
     font-size: 18px;
     margin: 25px 0 30px ;
 }
@@ -102,7 +101,7 @@ span{
     color: white;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
@@ -120,7 +119,7 @@ span{
     color: white;
     border: 2px solid black;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
