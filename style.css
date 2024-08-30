@@ -26,13 +26,13 @@
     transition: 0.3s;
 }
 .logo:hover{
-    color: orangered;
+    color: blue;
     text-shadow: 0 0 25px orangered,0 0 50px orangered;
     transform: scale(1,1);
 
 }
 span{
-    color: orangered;
+    color: blue;
 
 }
 
@@ -157,8 +157,8 @@ span{
 .about-img img{
     position: relative;
     width: 550px;
-    box-shadow: 0 0 25px orangered,
-                0 0 50px orangered;
+    box-shadow: 0 0 25px lightblue,
+                0 0 25px lightblue;
     border-radius: 50%;            
 }
 .about-content h2{
