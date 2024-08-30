@@ -174,35 +174,63 @@ span{
     font-size: 20px; 
     margin: 2em 0 3em;   
 }
-.contact-form h2{
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.contact-form .img-add {
+    flex: 1;
+    padding-right: 3em;
+}
+
+.contact-form .img-add img {
+    width: 100%;
+    height: auto;
+    border-radius: .8rem;
+}
+
+.contact-form .form-container {
+    flex: 1;
+    padding-left: 1em;
+}
+
+.contact-form h2 {
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
     font-size: 36px;
 }
-.contact-form form{
-    max-width: 50em;
+
+.contact-form form {
+    max-width: 85%;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3em;
 }
-.contact-form form .input-box{
+
+.contact-form form .input-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
+
 .contact-form form .input-box input,
-.contact-form form textarea{
+.contact-form form textarea {
     width: 100%;
-    padding: 1.5em;
+    padding: 1em;
     font-size: 18px;
     color: black;
     background: rgb(241, 241, 241);
     border-radius: .8rem;
     margin: 1rem 0;
     resize: none;
+    margin-bottom: 0.6em;
 }
+
+
 .footer{
     position:relative;
     bottom: 0;
