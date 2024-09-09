@@ -1,24 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins','sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     text-decoration: none;
     list-style: none;  
     scroll-behavior: smooth;
 }
-.root{
+
+.root {
     --bg-color: #080808;
     --second-bg-color: #101010;
     --text-color: white;
     --main-color: blue;
 }
 
-html{
+html {
     font-size: 60%;
     overflow-x: hidden;
 }
-.header{
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -31,24 +33,25 @@ html{
     align-items: center;
     z-index: 100;
 }
-.logo{   
+
+.logo {   
     font-size: 35px;
     color: white;
     font-weight: 600;
     transition: 0.3s;
 }
-.logo:hover{
-    color: blue;
-    text-shadow: 0 0 100px rgb(69, 69, 199),0 0 100px white;
-    transform: scale(1,1);
 
-}
-span{
+.logo:hover {
     color: blue;
-
+    text-shadow: 0 0 100px rgb(69, 69, 199), 0 0 100px white;
+    transform: scale(1, 1);
 }
 
-.navbar a{
+span {
+    color: blue;
+}
+
+.navbar a {
     font-size: 20px;
     color: white;
     font-weight: 500;
@@ -58,12 +61,12 @@ span{
 }
 
 .navbar a:hover,
-.navbar a.active{
+.navbar a.active {
     color: blue;
     border-bottom: 3px solid blue;
-
 }
-.contact{
+
+.contact {
     padding: 10px 28px;
     background-color: white;
     color: black;
@@ -75,39 +78,39 @@ span{
     transition: 0.3s;
 }
 
-.contact:hover{
+.contact:hover {
     background-color: blue;
     box-shadow: 0 0 25px blue;
     color: white;
 }
 
-.home{
+.home {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(241, 241, 241);
     display: flex;
-    align-items:center;
+    align-items: center;
     gap: 7em;
     padding: 30px 12% 0;
-    
 }
 
-.home-contact{
+.home-contact {
     max-width: 800px;
 }
-.home-contact h3{
+
+.home-contact h3 {
     font-size: 38px;
-    color:blue;
+    color: blue;
 }
-.home-contact h1{
-    font-weight: 100px;
+
+.home-contact h1 {
+    font-weight: 100;
     font-size: 45px;
     line-height: 1;
     margin-bottom: 30px;
-
 }
-.btn-1{
 
+.btn-1 {
     padding: 15px 28px;
     background-color: black;
     color: white;
@@ -119,13 +122,14 @@ span{
     transition: 0.3s ease;
     cursor: pointer;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
 }
 
-.btn-2{
+.btn-2 {
     padding: 15px 28px;
     background-color: blue;
     color: white;
@@ -136,28 +140,33 @@ span{
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
-}
-.btn-2:hover{
-    background-color: white;
-    color: blue;
     
 }
-.img-box img{   
+
+.btn-2:hover {
+    background-color: white;
+    color: blue;
+}
+
+.img-box img {   
     border-radius: 50%;
     width: 500px;
 }
-::-webkit-scrollbar{   
+
+::-webkit-scrollbar {   
     width: 15px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: blue;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.6);
     width: 50px;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,68 +174,73 @@ span{
     gap: 10em;
     background: black;
 }
-.about-img img{
-    position: relative;
-    width: 475px;
-    box-shadow: 0 0 25px lightblue,
-                0 0 25px lightblue;
-    border-radius: 50%;            
-}
-.about-content h2{
-    text-align: 62px;
-    color: white;
-    font-size: 60px;    
-}
-.about-content h3{
-    color: white;
-    font-size: 75px;    
-}
-.about-content p{
-    color: white;
-    font-size: 20px; 
-    margin: 2em 0 3em;  
 
-.heading{
+.about-img img {
+    position: relative;
+    width: 400px;
+    box-shadow: 0 0 25px lightblue, 0 0 25px lightblue;
+    border-radius: 50%;
+}
+
+.about-content h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.about-content h3 {
+    color: white;
+    font-size: 75px;
+}
+
+.about-content p {
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+.heading {
     text-align: center;
     font-size: 7rem;
     margin: 5rem 0;
 }
 
-.services{
-    background-color: var(--bg-color);
-    color: black;
+.services {
+    background-color: black;
+    color: white;
 }
 
-.services h2{
+.services h2 {
     color: var(--text-color);
 }
 
-.services-container{
+.services-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     gap: 2.5rem;
 }
 
-.services-box{
+.service-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-color);
-    height: 600px;
+    background-color: rgb(50, 150, 200);
+    height: 350px;
     border-radius: 3rem;
     cursor: pointer;
-    border: 3px solid transparent;
-    transition: 0.4s ease-in-out;
+    border: 5px solid transparent;
+    transition: 0.4s ease-in-out
 }
-.services-box:hover{
-    background: var(--second-bg-color);
-    color: var(--main-color);
-    border: 5px solid var(--main-color);
+
+.service-box:hover {
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    border: 5px solid rgb(50, 150, 200);
     transform: scale(1.03);
 }
 
-.service-info{
+.service-info {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -235,9 +249,24 @@ span{
     padding: 5rem;
 }
 
-
-
+.service-info i {
+    font-size: 8rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
 }
+
+.service-info h4 {
+    font-size: 4rem;
+    margin: 2rem 0;
+    font-weight: 800;
+}
+
+.service-info p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
 .contact-form {
     display: flex;
     justify-content: space-between;
@@ -294,15 +323,6 @@ span{
     margin-bottom: 0.6em;
 }
 
-
-.footer{
-    position:relative;
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0;
-    background-color: black;
-}
-
 .footer {
     position: relative;
     bottom: 0;
@@ -314,7 +334,7 @@ span{
 .footer .social {
     text-align: center;
     padding-bottom: 25px;
-    color: white;   
+    color: white;
 }
 
 .footer .social a {
