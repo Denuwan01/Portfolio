@@ -200,7 +200,8 @@ span {
 }
 
 .heading {
-    margin-top: 50px;
+    color: white;
+    margin-top: 10rem;
     text-align: center;
     font-size: 7rem;
     margin: 5rem 0;
@@ -227,7 +228,7 @@ span {
     justify-content: center;
     align-items: center;
     background-color: rgb(50, 150, 200);
-    height: 350px;
+    height: 400px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -266,6 +267,57 @@ span {
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 2rem;
+}
+
+.projects{
+    background-color: black;
+}
+
+.projects-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    place-items:center;
+    gap: 3rem;
+    row-gap: 5rem;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px blue;
+    transition: 0.3s ease;
+}
+
+.project-card:hover{
+    box-shadow: 0 0 25px blue,
+                0 0 50px blue;
+    transform: scale(1.02s);
+}
+
+.project-card img{
+    max-width: 300px;
+    border-radius: 2em;
+    object-fit: cover;
+}
+
+.project-card h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.project-card p{
+    font-size: 1.8rem;
+    color: white;
 }
 
 .contact-form {
@@ -389,3 +441,4 @@ span {
     font-size: 12px;
     color: white;
 }
+
