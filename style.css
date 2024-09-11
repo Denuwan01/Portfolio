@@ -472,6 +472,7 @@ span {
 }
 
 
+
 @media (max-width: 480px) {
     .contact-form {
         flex-direction: column;
@@ -482,6 +483,11 @@ span {
 
     }
 
+    .navbar {
+        flex-direction: column;
+        width: 100%
+    }
+
     .img-box img {
         width: 100%;
     }
@@ -489,5 +495,44 @@ span {
     .about {
         flex-direction: column;
     }
+
+    menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3rem;
+        background: #080808;
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid blue;
+        border-bottom: 2px solid blue;
+        display: none;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: blue;
+    }
+
+    .gradient-btn {
+        display: none;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+        gap: 5rem;
+    }
+
+    .home-contact {
+        align-items: center;
+    }
+
 
 }
