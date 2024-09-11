@@ -126,6 +126,7 @@ span {
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .btn-1:hover {
