@@ -524,15 +524,6 @@ span {
         display: none;
     }
 
-    .home {
-        flex-direction: column-reverse;
-        margin: 5rem 0;
-        gap: 5rem;
-    }
-
-    .home-contact {
-        align-items: center;
-    }
 
 
 }
